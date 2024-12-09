@@ -1,0 +1,115 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* About section */
+  .about {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  button{
+    background: transparent;
+    border: none;
+  }
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Mission Section */
+  .mission {
+    padding: 30px 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+  }
+  
+  .mission p {
+    font-size: 1.1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact address {
+    font-style: normal;
+    font-size: 1rem;
+  }
+  
+  .contact address a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #0674a7;
+    color: rgb(7, 78, 126);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
